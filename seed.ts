@@ -63,7 +63,7 @@ async function main() {
 
     await browser.close();
 
-    await Bun.write('./public/adjectives.json', JSON.stringify(adjectives));
+    await Bun.write('./src/assets/adjectives.json', JSON.stringify(adjectives));
 
 }
 
