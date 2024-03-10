@@ -1,0 +1,15 @@
+{
+  "PRESENT": "Present",
+  "NEGATIVE_PRESENT":  "Negative present",
+  "FUTURE":  "Future",
+  "NEGATIVE_FUTURE":  "Negative future",
+  "PAST":  "Past",
+  "NEGATIVE_PAST":  "Negative past",
+  "UNCERTAIN_FUTURE":  "Uncertain future",
+  "NEGATIVE_UNCERTAIN_FUTURE":  "Negative uncertain future",
+  "UNCERTAIN_PAST":  "Uncertain past",
+  "NEGATIVE_UNCERTAIN_PAST": "Negative uncertain past",
+  "Score": "Score",
+  "Answer": "Answer",
+  "Correct answers": "Correct answers"
+}

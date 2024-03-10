@@ -1,0 +1,15 @@
+{
+  "PRESENT": "Presente",
+  "NEGATIVE_PRESENT":  "Presente negativo",
+  "FUTURE":  "Futuro",
+  "NEGATIVE_FUTURE":  "Futuro negativo",
+  "PAST":  "Passato",
+  "NEGATIVE_PAST":  "Passato negativo",
+  "UNCERTAIN_FUTURE":  "Futuro incerto",
+  "NEGATIVE_UNCERTAIN_FUTURE":  "Futuro incerto negativo",
+  "UNCERTAIN_PAST":  "Passato incerto",
+  "NEGATIVE_UNCERTAIN_PAST": "Passato incerto negativo",
+  "Score": "Punteggio",
+  "Answer": "Rispondi",
+  "Correct answers": "Risposte corrette"
+}
