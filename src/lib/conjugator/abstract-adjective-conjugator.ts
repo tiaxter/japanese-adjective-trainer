@@ -48,13 +48,14 @@ export abstract class AbstractAdjectiveConjugator {
    * @param verbalTense
    * @private
    */
-  public conjugate(verbalTense: VerbalTense) {
+  public conjugate(verbalTense: VerbalTense): Adjective[] {
     // Modify the adjective using the adjective modifier
     const adjective = this.adjectiveModifiersByVerbalTense?.[verbalTense]?.(this.adjective) ?? this.adjective;
     // Conjugate the adjective
     return this.conjugationByVerbalTense[verbalTense].map(conjugation => {
       return {
         verbalTense,
+        category: adjective.category,
         kana: `${adjective.kana}${conjugation}`,
         kanji: `${adjective.kanji}${conjugation}`,
       };
