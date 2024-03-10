@@ -18,6 +18,7 @@ export class IAdjectiveCategoryConjugator extends AbstractAdjectiveConjugator {
   protected applyConjugationByVerbalTenseChanges(): void {
     // Add "no verbs" to present
     this.conjugationByVerbalTense.PRESENT = ['です', ''];
+    this.conjugationByVerbalTense.FUTURE = ['です', ''];
     // Replace all では with く
     this.conjugationByVerbalTense = Object.fromEntries(
       Object.entries(this.conjugationByVerbalTense).map(([verbalTense, verbs]) => {
