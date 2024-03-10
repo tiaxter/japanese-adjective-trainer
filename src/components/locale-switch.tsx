@@ -58,7 +58,7 @@ export default function LocaleSwitch() {
       <DropdownMenuContent>
         {
           locales.map(language => (
-            <DropdownMenuItem onClick={() => changeLocale(language.value)}>
+            <DropdownMenuItem key={language.value} onClick={() => changeLocale(language.value)}>
               <span
                 className={`fi fi-${language.flagCode} mr-2`}
               />
