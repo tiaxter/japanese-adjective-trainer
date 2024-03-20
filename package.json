@@ -1,6 +1,6 @@
 {
   "name": "japanese-adjective-trainer",
-  "private": true,
+  "private": false,
   "homepage": "https://tiaxter.github.io/japanese-adjective-trainer",
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.0.6",
