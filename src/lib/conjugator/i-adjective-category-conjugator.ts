@@ -29,7 +29,7 @@ export class IAdjectiveCategoryConjugator extends AbstractAdjectiveConjugator {
     this.conjugationByVerbalTense.PAST = ['かったです', 'かった'];
     // Replace かった with だった in uncertain past
     this.conjugationByVerbalTense.UNCERTAIN_PAST = this.conjugationByVerbalTense.UNCERTAIN_PAST.map((verb) =>
-      verb.replace('かった', 'だった')
+      verb.replace( 'だった', 'かった')
     );
   }
 
